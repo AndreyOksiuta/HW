@@ -9,6 +9,9 @@ public class Main {
             String a = scaner.readLine();
             try {
                 System.out.println(calc(a));
+            }  catch(NumberFormatException info){
+                System.out.println("Only integers");
+
             } catch (Exception info) {
                 info.printStackTrace();
                 break;
