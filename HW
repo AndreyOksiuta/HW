@@ -11,6 +11,7 @@ public class Main {
                 System.out.println(calc(a));
             } catch (Exception info) {
                 info.printStackTrace();
+                break;
             }
         }
 
